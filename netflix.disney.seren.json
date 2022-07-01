@@ -1,0 +1,23 @@
+{
+    "name": "[COLOR red]Netflix[/COLOR] -> [COLOR royalblue]Disney+[/COLOR] -> [COLOR deepskyblue]Seren[/COLOR]",
+    "plugin": [
+        "plugin.video.netflix",
+        "slyguy.disney.plus",
+        "plugin.video.seren"
+    ],
+    "priority": 100,
+    "play_movie": [
+        "plugin://plugin.video.netflix/directory/search/search/{title}/",
+        {"title": "{title}", "year": "{year}"}
+    ],
+    "play_episode": [
+        "plugin://plugin.video.netflix/directory/search/search/{showname}/",
+        {"title": "{showname}"},
+        {"position": "{season}"},
+        {"season": "{season}", "episode": "{episode}"}
+    ],
+    "fallback": {
+        "play_movie": "disney.seren.json play_movie",
+        "play_episode": "disney.seren.json play_episode"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "[COLOR royalblue]Disney+[/COLOR]",
+    "plugin": "slyguy.disney.plus",
+    "priority": 550,
+    "play_movie": [
+        "plugin://slyguy.disney.plus/?_=search",
+        {"keyboard": "{title}"},
+        {"title": "{title}", "year": "{year}"}
+    ],
+    "play_episode": [
+        "plugin://slyguy.disney.plus/?_=search",
+        {"keyboard": "{showname}"},
+        {"title": "{showname}"},
+        {"position": "{season}"},
+        {"position": "{episode}"}
+    ],
+    "search_movie": [
+        "plugin://slyguy.disney.plus/?_=search",
+        {"keyboard": "{title}"}
+    ],
+    "search_episode": [
+        "plugin://slyguy.disney.plus/?_=search",
+        {"keyboard": "{showname}"},
+        {"title": "{showname}"},
+        {"position": "{season}"}
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "[COLOR red]Netflix[/COLOR] -> [COLOR deepskyblue]Seren[/COLOR]",
+    "plugin": [
+        "plugin.video.netflix",
+        "plugin.video.seren"
+    ],
+    "priority": 150,
+    "play_movie": [
+        "plugin://plugin.video.netflix/directory/search/search/{title}/",
+        {"title": "{title}", "year": "{year}"}
+    ],
+    "play_episode": [
+        "plugin://plugin.video.netflix/directory/search/search/{showname}/",
+        {"title": "{showname}"},
+        {"position": "{season}"},
+        {"season": "{season}", "episode": "{episode}"}
+    ],
+    "fallback": {
+        "play_movie": "seren.json play_movie",
+        "play_episode": "seren.json play_episode"
+    }
+}
