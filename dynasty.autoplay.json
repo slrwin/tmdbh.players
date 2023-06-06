@@ -1,5 +1,5 @@
 {
-    "name" : "[COLOR orange]Dynasty[/COLOR] (Auto Play)", 
+    "name" : "[COLOR gold]Dynasty[/COLOR] (Auto Play)", 
     "plugin" : "plugin.video.dynasty", 
     "priority" : 101, 
     "is_resolvable" : "true", 

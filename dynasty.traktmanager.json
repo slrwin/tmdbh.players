@@ -1,5 +1,5 @@
 {
-    "name" : "[COLOR orange]Dynasty[/COLOR] (Trakt Manager)", 
+    "name" : "[COLOR gold]Dynasty[/COLOR] (Trakt Manager)", 
     "plugin" : "plugin.video.dynasty", 
     "priority" : 103, 
     "is_resolvable" : "true", 

@@ -1,5 +1,5 @@
 {
-    "name" : "[COLOR orange]Dynasty[/COLOR] (Source Select)", 
+    "name" : "[COLOR gold]Dynasty[/COLOR] (Source Select)", 
     "plugin" : "plugin.video.dynasty", 
     "priority" : 100, 
     "is_resolvable" : "true", 
