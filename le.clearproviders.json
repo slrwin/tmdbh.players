@@ -1,8 +1,0 @@
-{
-    "name": "[COLOR deepskyblue]Loonatics Empire[/COLOR] (Clear Providers)", 
-    "plugin": "plugin.video.le", 
-    "priority": 102, 
-    "is_resolvable": "true", 
-    "play_episode": "plugin://plugin.video.le/?action=cache_clearSources", 
-    "play_movie": "plugin://plugin.video.le/?action=cache_clearSources"
-}

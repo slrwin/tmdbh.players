@@ -1,8 +1,0 @@
-{
-    "name": "[COLOR deepskyblue]Loonatics Empire[/COLOR] (Trakt Manager)", 
-    "plugin": "plugin.video.le", 
-    "priority": 103, 
-    "is_resolvable": "true", 
-    "play_episode": "plugin://plugin.video.le/?action=tools_traktManager&amp;name={title_url}&amp;imdb={imdb}&amp;tvdb={tvdb}&amp;season={season}&amp;episode={episode}", 
-    "play_movie": "plugin://plugin.video.le/?action=tools_traktManager&amp;name={title_url}&amp;imdb={imdb}"
-}
