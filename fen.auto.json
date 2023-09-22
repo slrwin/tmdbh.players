@@ -1,5 +1,5 @@
 {
-    "name": "Fen",
+    "name": "Fen Auto Play",
     "plugin": "plugin.video.fen",
     "priority": 500,
     "play_movie": "plugin://plugin.video.fen/?mode=playback.media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}&autoplay=true",

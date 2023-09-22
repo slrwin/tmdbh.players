@@ -1,5 +1,5 @@
 {
-    "name" : "Buds",
+    "name" : "Buds Auto Play",
     "plugin" : "plugin.video.buds",
     "priority" : 500,
     "play_movie" : "plugin://plugin.video.buds/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}",

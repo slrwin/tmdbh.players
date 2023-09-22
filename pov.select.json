@@ -1,5 +1,5 @@
 {
-    "name": "pov Source Select",
+    "name": "POV Source Select",
     "plugin": "plugin.video.pov",
     "priority": 500,
     "is_resolvable": "false",

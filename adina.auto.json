@@ -1,5 +1,5 @@
 {
-    "name": "Adina",
+    "name": "Adina Auto Play",
     "plugin": "plugin.video.adina",
     "priority": 500,
     "play_movie": "plugin://plugin.video.adina/?mode=play_media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}",

@@ -1,5 +1,5 @@
 {
-    "name": "Kit",
+    "name": "Kit Auto Play",
     "plugin": "plugin.video.kit",
     "priority": 500,
     "play_movie": "plugin://plugin.video.kit/?mode=playback.media&media_type=movie&query={name}&year={year}&poster={poster}&title={title}&tmdb_id={id}&autoplay=true",
