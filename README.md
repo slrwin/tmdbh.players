@@ -1,6 +1,6 @@
 # tmdbh.players
 
-Players for TheMovieDb-Helper that support ACTIVE Kodi 19/20/21 Add-ons (updated as of Nov 3 2023) 
+Players for TheMovieDb-Helper that support ACTIVE Kodi 19/20/21 Add-ons (updated as of Dec 29 2023) 
 
 If any are broken, or not listed please let me know. I will look at it and let you know what I can or can't do. 
 I can usually create a player for add-ons built as forks of either Exodus, Shadow, Fen or Venom as it's simply a matter of copying existing code. To create a player from scratch I would need the help of a true coder.
